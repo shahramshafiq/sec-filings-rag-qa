@@ -8,3 +8,5 @@ data/filings/
 
 # files uploaded through POST /documents are runtime artifacts, not source
 data/uploads/
+
+PROJECT_DOCUMENTATION.md
