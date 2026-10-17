@@ -172,14 +172,14 @@ retrieval trick.
 **Deliberately out of scope**: recursive and hierarchical chunking strategies (agentic and structure-aware
 were judged sufficient to answer the chunking-strategy comparison question; adding two more strategies was
 cut for time), and testing 2-3 chunk sizes against the winning strategy. Both are explicit deviations from
-the written spec, made consciously, not gaps discovered late.
+the project plan, made consciously, not gaps discovered late.
 
 Built since the above: the FastAPI routes (`POST /documents` with SSE ingestion progress, `POST /query`),
 manually verified end to end via Postman.
 
 ## Phase 5, part 2: abstention, citations, injection defense
 
-Built while the project's OpenAI key was out of credits (a company-issued key, a replacement was
+Built while the project's OpenAI key was out of credits (a temporary key, a replacement was
 requested but hadn't arrived). This section is intentionally explicit about what is and isn't verified,
 since it's the one part of this project where "written and reasoned through carefully" and "confirmed
 against a real measurement" are genuinely different things, and this project's own rule is that every
@@ -389,8 +389,8 @@ $0.337. Average latency: 8.6s.
 
 **Status against the spec, honestly, as of this point**: Phases 1, 2, 4, and 5 are complete and verified
 against live runs, not assumed. Phase 3's remaining items (recursive/hierarchical chunking strategies, a
-chunk-size sweep) were explicitly descoped by the person running this project, a conscious decision, not
-an oversight, and are not reflected as gaps below. Every other requirement in the written spec and the
-supervisor's verbal amendments has a real measurement behind it, recorded in this document alongside what
+chunk-size sweep) were explicitly descoped by the project owner, a conscious decision, not
+an oversight, and are not reflected as gaps below. Every other requirement in the project plan and the
+later amendments has a real measurement behind it, recorded in this document alongside what
 was tried, what the numbers showed, what was kept, and what didn't justify its cost, which is the actual
 completion criterion this project set for itself, not a score.
